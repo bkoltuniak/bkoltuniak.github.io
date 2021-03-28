@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,900;1,400&display=swap");
+html {
+  background-color: #ffffff;
+}
+
+.logo {
+  width: 100%;
+  height: 250px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-bottom: 1px solid #bfbfbf;
+  margin: 0px;
+}
+
+.logo #logo-symbol {
+  margin-top: 16px;
+  width: 150px;
+  height: 150px;
+  -webkit-animation: spin 8s linear infinite;
+  animation: spin 8s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 8px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+nav a {
+  padding: 0 1em;
+  color: #000;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #82ca9c;
+}
+
+.hamburger {
+  padding: 0 0.5em;
+  font-size: 1.5em;
+  line-height: 50px;
+  display: inline-block;
+  z-index: 2;
+}
+
+#slider-gallery {
+  margin-top: 16px;
+}
+
+.dupa-example img {
+  padding-left: 16px;
+  width: 400px;
+  height: 600px;
+}
+
+@media screen and (max-width: 1000px) {
+  .dupa-example img {
+    width: 100px;
+    height: 150px;
+  }
+}
+/*# sourceMappingURL=main.css.map */
